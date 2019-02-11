@@ -27,7 +27,7 @@ def testPass(cryptPass, dictFilePath):
     print "[-] Password Not Found.\n"
 
 #读取并解析密码文件，同时调用testPass方法对密码进行对比
-def crack(passwordFile, dictFile):
+def attack(passwordFile, dictFile):
     try:
         passFile = open(passwordFile, 'r')
     except Exception, e:
@@ -52,7 +52,7 @@ def main():
         dictFile = raw_input("Please input Dictionary File Path: ")
 
     print 'Start Crack Crypt Password...\n'
-    crack(passwordFile, dictFile)
+    attack(passwordFile, dictFile)
 
 #程序的口入
 if __name__ == "__main__":
