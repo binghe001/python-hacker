@@ -3,7 +3,7 @@
 # -*- coding: gbk -*-
 # Date: 2019/2/12
 # Created by 冰河
-# Description 连接ssh
+# Description 连接ssh，需要在Linux下执行
 # 博客 https://blog.csdn.net/l1028386804
 
 import pexpect
