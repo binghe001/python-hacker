@@ -41,3 +41,18 @@ QQ：2711098650
 1. scan_host_ports.py: 端口扫描器  
 2. scan_nmap.py: 使用nmap进行扫描
 ```
+
+# 出现率高的密码
+```
+aaa
+academia
+anything
+coffee
+computer
+cookie
+oracle
+password
+secret
+super
+unknown
+```
