@@ -27,7 +27,12 @@ QQ：2711098650
 1. attack_zip.py: 暴力破解zip文件  
 2. attack_zip_input_args.py: 暴力破解zip文件  
 ```
-  
+### com.binghe.hacker.tools.script.attack.ftp 包下的脚本
+```
+1. ftp_anonymous.py: 确定一个FTP服务器是否允许匿名登录，允许则返回True,不允许返回False
+2. ftp_brute.py: 根据用户名:密码字典暴力爆破FTP服务器
+```
+
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
 1. scan_host_ports.py: 端口扫描器  
