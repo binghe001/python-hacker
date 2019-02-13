@@ -33,6 +33,7 @@ QQ：2711098650
 2. ftp_brute.py: 根据用户名:密码字典暴力爆破FTP服务器
 3. ftp_web_page.py: 在FTP服务器上搜索网页
 4. ftp_inject.py: 感染FTP上的网页
+5. ftp_attack_web_page.py: 完整的感染FTP服务器上的网页脚本
 ```
 
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
