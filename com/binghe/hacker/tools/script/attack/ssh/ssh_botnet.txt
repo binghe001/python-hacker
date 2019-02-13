@@ -1,0 +1,2 @@
+192.168.175.131 root binghe
+192.168.175.132 root binghe
