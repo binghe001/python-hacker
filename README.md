@@ -6,3 +6,22 @@ QQ：2711098650
 
 # 工具简述
 本项目均为冰河亲自编写并整理的Python渗透脚本集合，可直接拿来用于实战渗透
+
+# 脚本说明
+### com.binghe.hacker.tools.script.attack.crypt 包下的脚本：
+1.crypt_attack.py: 利用字典破解Unix/Linux口令  
+  
+### com.binghe.hacker.tools.script.attack.ssh 包下的脚本
+1. pxssh_connection.py: 使用pexpect中的pxssh模块连接ssh， 需要在Linux下执行  
+2. ssh_attack.py: 暴力破解SSH  
+3. ssh_botnet.py: 构建SSH僵尸网络,批量向多个SSH终端发送执行命令，达到批量控制目标主机的目的  
+4. ssh_connection.py: 连接ssh，需要在Linux下执行  
+5. ssh_dsa_attack.py: 利用ssh密钥暴力破解SSH  
+  
+### com.binghe.hacker.tools.script.attack.zip 包下的脚本
+1. attack_zip.py: 暴力破解zip文件  
+2. attack_zip_input_args.py: 暴力破解zip文件  
+  
+### com.binghe.hacker.tools.script.scanner 包下的脚本
+1. scan_host_ports.py: 端口扫描器  
+2. scan_nmap.py: 使用nmap进行扫描
