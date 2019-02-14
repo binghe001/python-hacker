@@ -9,7 +9,6 @@
 #             用法： python meta_pdf.py -F pdf文件
 # 博客 https://blog.csdn.net/l1028386804
 
-import pyPdf
 import optparse
 from pyPdf import PdfFileReader
 
