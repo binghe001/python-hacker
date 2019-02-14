@@ -35,6 +35,11 @@ QQ：2711098650
 4. ftp_inject.py: 感染FTP上的网页
 5. ftp_attack_web_page.py: 完整的感染FTP服务器上的网页脚本
 ```
+### com.binghe.hacker.tools.script.attack.metasploit 包下的脚本
+```
+1. conficker.rc: Metasploit脚本，在Kali命令行中运行msfconsole -r conficker.rc 即可运行该脚本
+2. metasploit_attack.py: 利用Metasploit实施攻击的脚本，主要针对Windows系统
+```
 
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
