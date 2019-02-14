@@ -45,6 +45,11 @@ QQ：2711098650
 1.zeroday_ftp_attack.py: 0day漏洞利用脚本，针对FreeFloat FTP
 2.zeroday_ftp_attack2.py: 0day漏洞利用脚本，针对FreeFloat FTP
 ```
+### com.binghe.hacker.tools.script.net 包下的脚本
+```
+1. windows_reg_net.py: 列举Windows注册表中存储的网络名和默认网关的Mac
+2. windows_reg_net_address.py: 列举Windows注册表中存储的网络名和默认网关的Mac,并通过https://wigle.net查询物理位置
+```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
 1. scan_host_ports.py: 端口扫描器  
