@@ -40,7 +40,11 @@ QQ：2711098650
 1. conficker.rc: Metasploit脚本，在Kali命令行中运行msfconsole -r conficker.rc 即可运行该脚本
 2. metasploit_attack.py: 利用Metasploit实施攻击的脚本，主要针对Windows系统
 ```
-
+### com.binghe.hacker.tools.script.attack.0day 包下的脚本
+```
+1.zeroday_ftp_attack.py: 0day漏洞利用脚本，针对FreeFloat FTP
+2.zeroday_ftp_attack2.py: 0day漏洞利用脚本，针对FreeFloat FTP
+```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
 1. scan_host_ports.py: 端口扫描器  
