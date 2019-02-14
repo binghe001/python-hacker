@@ -49,6 +49,7 @@ QQ：2711098650
 ```
 1. windows_reg_net.py: 列举Windows注册表中存储的网络名和默认网关的Mac
 2. windows_reg_net_location.py: 列举Windows注册表中存储的网络名和默认网关的Mac,并通过https://wigle.net查询物理位置
+3. windows_net_location.py: 测试Mac地址的地理位置
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
