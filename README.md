@@ -55,6 +55,10 @@ QQ：2711098650
 ```
 1. windows_recycle_recovery.py: 查找系统中所有用户对应的回收站中的文件，并打印出来
 ```
+### com.binghe.hacker.tools.script.meta 包下的脚本
+```
+1. meta_pdf.py: 分析PDF文件中的元数据信息
+```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
 1. scan_host_ports.py: 端口扫描器  
