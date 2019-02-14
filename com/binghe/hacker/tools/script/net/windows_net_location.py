@@ -3,7 +3,8 @@
 # -*- coding: gbk -*-
 # Date: 2019/2/14
 # Created by 冰河
-# Description 列举Windows注册表中存储的网络名和默认网关的Mac,并通过https://wigle.net查询物理位置
+# Description 测试Mac地址的地理位置
+#             用法： python windows_net_location.py -u username -p password -n mac
 # 博客 https://blog.csdn.net/l1028386804
 
 import optparse
@@ -54,40 +55,21 @@ def wiglePrint(username, password, netid):
         mapLon = rLon[0].split
     print '[-] Lat: ' + mapLat + ', Lon: ' + mapLon
 
-#打印网络信息
-def printNets(username, password):
-    net = "SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Signatures\Unmanaged"
-    key = OpenKey(HKEY_LOCAL_MACHINE, net)
-    print '\n[*] Networks you have Joined.'
-    for i in range(100):
-        try:
-            guid = EnumKey(key, i)
-            netKey = OpenKey(key, str(guid))
-            (n, addr, t) = EnumValue(netKey, 5)
-            (n, name, t) = EnumValue(netKey, 4)
-            macAddr = val2addr(addr)
-            netName = str(name)
-            print '[+] ' + netName + ' ' + macAddr
-            #获取地理位置
-            wiglePrint(username, password, macAddr)
-            CloseKey(netKey)
-        except:
-            break
-
 def main():
-    parser = optparse.OptionParser("usage%prog -u <wigle username> -p <wigle password>")
+    parser = optparse.OptionParser("usage%prog -u <wigle username> -p <wigle password> -n <wigle netid>")
     parser.add_option('-u', dest='username', type='string', help='specify wigle username')
     parser.add_option('-p', dest='password', type='string', help='specify wigle password')
+    parser.add_option('-n', dest='netid', type='string', help='specify wigle netid')
     (options, args) = parser.parse_args()
     username = options.username
     password = options.password
-    if username == None or password == None:
+    netid = options.netid
+
+    if username == None or password == None or netid == None:
         print parser.usage
         exit(0)
-    else:
-        printNets(username, password)
 
-
+    wiglePrint(username, password, netid)
 
 if __name__ == '__main__':
     main()
