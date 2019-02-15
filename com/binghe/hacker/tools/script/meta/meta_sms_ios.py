@@ -8,6 +8,8 @@
 #               Windows: C:\Documents and Settings\<USERNAME>\Application Data\AppleComputer\MobileSync\Backup
 #               Mac: /Users/<USERNAME>/Library/Application Support/MobileSync/Backup/
 #             用法： python meta_sms_ios.py -p <路径>
+#                   python meta_sms_ios.py -p C:\Documents and Settings\<USERNAME>\Application Data\AppleComputer\MobileSync\Backup
+#                   python meta_sms_ios.py -p /Users/<USERNAME>/Library/Application Support/MobileSync/Backup/
 # 博客 https://blog.csdn.net/l1028386804
 
 import os
