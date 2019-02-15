@@ -4,6 +4,7 @@
 # Date: 2019/2/15
 # Created by 冰河
 # Description 下载链接中的所有图片，并检查每张图片中的GPS元数据，若存在GPS元数据，在打印此文件存在GPS元数据
+#             用法：python meta_image.py -u url
 # 博客 https://blog.csdn.net/l1028386804
 
 import urllib2
