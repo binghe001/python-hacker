@@ -60,6 +60,7 @@ QQ：2711098650
 1. meta_pdf.py: 分析PDF文件中的元数据信息
 2. meta_image.py: 下载链接中的所有图片，并检查每张图片中的GPS元数据，若存在GPS元数据，在打印此文件存在GPS元数据
 3. meta_skype_sqlite3.py: 检查Skype数据库，把账户信息、联系人地址、通话记录以及存放在数据库中的消息打印出来
+4. meta_firefox_sqlite3.py: 查询火狐浏览器存储的上网记录
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
