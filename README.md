@@ -58,6 +58,7 @@ QQ：2711098650
 ### com.binghe.hacker.tools.script.meta 包下的脚本
 ```
 1. meta_pdf.py: 分析PDF文件中的元数据信息
+2. meta_image.py: 下载链接中的所有图片，并检查每张图片中的GPS元数据，若存在GPS元数据，在打印此文件存在GPS元数据
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
