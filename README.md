@@ -63,7 +63,7 @@ QQ：2711098650
 4. meta_firefox_sqlite3.py: 查询火狐浏览器存储的上网记录
 5. meta_sms_ios.py: 提取IOS备份中的所有短信记录
 ```
-### com.binghe.hacker.tools.script.network 包下的脚本
+### com.binghe.hacker.tools.script.network.pcap 包下的脚本
 ```
 1. GeoLiteCity.dat: IP的地理位置数据库
 2. search_ip_geolitecity.py: 使用GeoLiteCity.dat数据库查询指定IP的位置信息
