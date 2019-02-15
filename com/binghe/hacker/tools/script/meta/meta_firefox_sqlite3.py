@@ -6,6 +6,7 @@
 # Description 查询火狐浏览器存储的上网记录
 #             在Windows系统中，火狐把历史记录存放在C:\Documents and Settings\<USER>\Application Data\Mozilla\Firefox\Profiles\<profile folder>\目录中
 #             在Mac OS X系统中，火狐把历史记录存放在：/Users/<USER>/Library/Application/Support/Forefox/Profiles/<profile folder>目录中
+#             用法： python meta_firefox_sqlite3.py -p <路径>
 # 博客 https://blog.csdn.net/l1028386804
 
 import re
