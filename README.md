@@ -72,6 +72,7 @@ QQ：2711098650
 5. analysis_pcap.py: 分析pcap数据包，可以直接看到数据包的源和目标的物理位置，此脚本是其他三个脚本的最终整合版
 6. analysis_pcap_kml.py: 分析pcap文件，并将分析结果生成KML文件在Google地球上标注
 7. analysis_dpkt_loic.py: 使用Dpkt发现下载LOIC的行为
+8. analysis_pcap_irc.py: 解析HIVE服务器上的IRC命令
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
