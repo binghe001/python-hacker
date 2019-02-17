@@ -19,7 +19,7 @@ loic = 'loic'
 port = 6667
 lazor = '!lazor'
 
-#查看下载情况
+#查看下载情况43
 def findDownload(pcap):
     for (ts, buf) in pcap:
         try:
