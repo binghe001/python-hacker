@@ -77,6 +77,7 @@ QQ：2711098650
 ```
 1. analysis_dpkt_loic.py: 使用Dpkt发现下载LOIC的行为
 2. analysis_pcap_irc.py: 解析HIVE服务器上的IRC命令
+3. analysis_loic_online.py: 实时检测DDos攻击
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
