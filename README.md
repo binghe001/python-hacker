@@ -78,7 +78,11 @@ QQ：2711098650
 1. analysis_dpkt_loic.py: 使用Dpkt发现下载LOIC的行为
 2. analysis_pcap_irc.py: 解析HIVE服务器上的IRC命令
 3. analysis_loic_online.py: 实时检测DDos攻击
-4. analysis_loic.py: 分析loic, 此脚本为analysis_dpkt_loic.py、analysis_loic_online.py、analysis_pcap_irc.py 三个脚本的整合
+4. analysis_loic.py: 分析loic, 实时检测DDos攻击，此脚本为analysis_dpkt_loic.py、analysis_loic_online.py、analysis_pcap_irc.py 三个脚本的整合
+```
+### com.binghe.hacker.tools.script.network.scapy 包下的脚本
+```
+1. scapy_ip_ttl.py: 检测数据包中的TTL值是否为假，如果是假的则打印出来，此脚本可检测nmap是否启用了伪装源IP扫描
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
