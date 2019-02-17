@@ -83,6 +83,7 @@ QQ：2711098650
 ### com.binghe.hacker.tools.script.network.scapy 包下的脚本
 ```
 1. scapy_ip_ttl.py: 检测数据包中的TTL值是否为假，如果是假的则打印出来，此脚本可检测nmap是否启用了伪装源IP扫描
+2. scapy_dns_fast_flux.py 用Scapy找出flux流量
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
