@@ -9,6 +9,7 @@
 #                  如果HTTP层中使用了GET方法，则解析HTTP GET所要获取的统一资源标识符(URI)。如果
 #                  该URI所指向的文件的文件名中含有.zip和LOIC，则在屏幕上输出一条某个IP正在下载LOIC的消息
 #             Loic下载地址:http://sourceforge.net/projects/loic
+#             tcpdump -i eth0 -A 'port 80' 过滤80端口的数据包
 # 博客 https://blog.csdn.net/l1028386804
 
 import dpkt
