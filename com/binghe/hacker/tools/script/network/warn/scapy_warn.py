@@ -4,6 +4,7 @@
 # Date: 2019/2/18
 # Created by 冰河
 # Description 生成触发拒绝服务攻击、漏洞利用(exploits)和踩点扫描警报的数据包
+#             用法： python scapy_warn.py -i<iface> -s <src> -t <target> -c <count>
 # 博客 https://blog.csdn.net/l1028386804
 
 import optparse

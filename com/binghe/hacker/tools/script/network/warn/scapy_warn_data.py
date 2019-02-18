@@ -4,6 +4,7 @@
 # Date: 2019/2/18
 # Created by 冰河
 # Description 产生大量警报的工具包，分析人员也可以使用这个工具来验证IDS是否能够正确识别出恶意流量
+#             用法： python scapy_warn_data.py -s <source ip> -t <target ip> -i <iface> -c <count>
 # 博客 https://blog.csdn.net/l1028386804
 
 import optparse
