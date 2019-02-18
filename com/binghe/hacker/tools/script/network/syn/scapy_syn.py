@@ -5,6 +5,7 @@
 # Created by 冰河
 # Description 使用Scapy制造SYN泛洪攻击、读取TCP序列号并伪造TCP连接
 #             此脚本是scapy_syn_flood.py、scapy_syn_forge.py和scapy_syn_tcp.py的整合版
+#             用法：python scapy_syn.py -s <src for SYN Flood> -S <src for spoofed connection> -t <target address>
 # 博客 https://blog.csdn.net/l1028386804
 
 import optparse
