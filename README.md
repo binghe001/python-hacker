@@ -91,6 +91,7 @@ QQ：2711098650
 1. scapy_syn_flood.py: 使用Scapy制造SYN泛洪攻击
 2. scapy_syn_tcp.py: 读取TCP序列号
 3. scapy_syn_forge.py: 伪造TCP连接
+4. scapy_syn.py: 使用Scapy制造SYN泛洪攻击、读取TCP序列号并伪造TCP连接; 此脚本是scapy_syn_flood.py、scapy_syn_forge.py和scapy_syn_tcp.py的整合版
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
