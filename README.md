@@ -96,6 +96,7 @@ QQ：2711098650
 ### com.binghe.hacker.tools.script.network.warn 包下的脚本
 ```
 1. scapy_warn_data.py:产生大量警报的工具包，分析人员也可以使用这个工具来验证IDS是否能够正确识别出恶意流量
+2. scapy_warn.py: 生成触发拒绝服务攻击、漏洞利用(exploits)和踩点扫描警报的数据包
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
