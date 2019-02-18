@@ -93,6 +93,10 @@ QQ：2711098650
 3. scapy_syn_forge.py: 伪造TCP连接
 4. scapy_syn.py: 使用Scapy制造SYN泛洪攻击、读取TCP序列号并伪造TCP连接; 此脚本是scapy_syn_flood.py、scapy_syn_forge.py和scapy_syn_tcp.py的整合版
 ```
+### com.binghe.hacker.tools.script.network.warn 包下的脚本
+```
+1. scapy_warn_data.py:产生大量警报的工具包，分析人员也可以使用这个工具来验证IDS是否能够正确识别出恶意流量
+```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
 1. scan_host_ports.py: 端口扫描器  
