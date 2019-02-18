@@ -85,7 +85,7 @@ QQ：2711098650
 1. scapy_ip_ttl.py: 检测数据包中的TTL值是否为假，如果是假的则打印出来，此脚本可检测nmap是否启用了伪装源IP扫描
 2. scapy_dns_fast_flux.py 用Scapy找出flux流量
 3. scapy_dns_domain_flux.py: 用Scapy找出Domain Flux流量
-4. scapy_syn.py: 使用Scapy制造SYN泛洪攻击
+4. scapy_syn_flood.py: 使用Scapy制造SYN泛洪攻击
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
