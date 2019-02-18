@@ -86,6 +86,7 @@ QQ：2711098650
 2. scapy_dns_fast_flux.py 用Scapy找出flux流量
 3. scapy_dns_domain_flux.py: 用Scapy找出Domain Flux流量
 4. scapy_syn_flood.py: 使用Scapy制造SYN泛洪攻击
+5. scapy_syn_tcp.py: 读取TCP序列号
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
