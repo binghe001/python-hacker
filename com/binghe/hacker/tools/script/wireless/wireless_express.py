@@ -37,6 +37,7 @@ def main():
         conf.iface = options.interface
     try:
         print('[*] Starting Credit Card Sniffer.')
+        #过滤TCP数据包，把抓到的每个TCP包作为一个参数传递给findCreditCard()
         sniff(filter='tcp', prn=findCreditCard, store=0)
     except KeyboardInterrupt:
         exit(0)
