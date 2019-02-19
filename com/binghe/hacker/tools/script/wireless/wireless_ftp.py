@@ -13,6 +13,7 @@ from scapy.all import *
 #嗅探FTP数据包
 def ftpSniff(pkt):
     dest = pkt.getlayer(IP).dst
+    #将二进制包复制到raw变量
     raw = pkt.sprintf('%Raw.load%')
     user = re.findall('(?i)USER (.*)', raw)
     pswd = re.findall('(?i)PASS (.*)', raw)
