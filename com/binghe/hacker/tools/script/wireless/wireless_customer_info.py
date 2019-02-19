@@ -11,6 +11,7 @@ from scapy.all import *
 
 #查找用户信息,即姓+房间号
 def findGest(pkt):
+    #把载荷中的二进制内容复制到raw中
     raw = pkt.sprintf('%Raw.load%')
     #匹配以PROVIDED_LAST_NAME=开头 以&结尾
     name = re.findall('(?i)PROVIDED_LAST_NAME=(.*)&', raw)
