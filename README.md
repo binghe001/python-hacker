@@ -101,6 +101,8 @@ QQ：2711098650
 ### com.binghe.hacker.tools.script.network.wireless 包下的脚本
 ```
 1. wireless_scapy_sniffer.py: 侦听无线网卡数据流量
+2. wireless_regex.py: 正则表达式验证American Express信用卡
+3. wireless_express.py: 嗅探无线数据包中的信用卡信息
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
