@@ -108,6 +108,7 @@ QQ：2711098650
 5. wireless_google.py: 抓取Google搜索数据并实施显示的无线网络数据包嗅探器
 6. wireless_ftp.py: 嗅探FTP登录口令
 7. wireless_probe.py: 发现802.11请求
+8. wireless_hidden.py: 找出隐藏的802.11网络的网络名
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
