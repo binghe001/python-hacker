@@ -12,6 +12,7 @@ from scapy.all import *
 
 #查询数据包中的信用卡信息
 def findCreditCard(pkt):
+    #把载荷中的二进制内容复制到raw中
     raw = pkt.sprintf('%Raw.load%')
     americaRE = re.findall("3[47][0-9]{13}", raw)
     masterRE = re.findall('5[1-5][0-9]{14}', raw)
