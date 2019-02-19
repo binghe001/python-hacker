@@ -106,6 +106,7 @@ QQ：2711098650
 3. wireless_express.py: 嗅探无线数据包中的信用卡信息
 4. wireless_customer_info.py: 截获宾馆中无线数据流量中的用户信息
 5. wireless_google.py: 抓取Google搜索数据并实施显示的无线网络数据包嗅探器
+6. wireless_ftp.py: 嗅探FTP登录口令
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
