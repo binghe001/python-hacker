@@ -100,6 +100,7 @@ QQ：2711098650
 ```
 ### com.binghe.hacker.tools.script.network.wireless 包下的脚本
 ```
+此包下的如下脚本均需要将网卡设置为监听模式：
 1. wireless_scapy_sniffer.py: 侦听无线网卡数据流量
 2. wireless_regex.py: 正则表达式验证American Express信用卡
 3. wireless_express.py: 嗅探无线数据包中的信用卡信息
