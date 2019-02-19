@@ -4,6 +4,7 @@
 # Date: 2019/2/19
 # Created by 冰河
 # Description 找出隐藏的802.11网络的网络名
+#             用法： python wireless_hidden.py -i <处于监听模式的网卡>
 # 博客 https://blog.csdn.net/l1028386804
 
 import optparse

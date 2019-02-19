@@ -4,6 +4,7 @@
 # Date: 2019/2/19
 # Created by 冰河
 # Description 嗅探无线数据包中的信用卡信息，注意：要先将网卡设置为监听模式
+#             用法： python wireless_express.py -i <处于监听模式的网卡>
 # 博客 https://blog.csdn.net/l1028386804
 
 import re
