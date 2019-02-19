@@ -30,7 +30,7 @@ def sniffDot11(p):
         if p.getlayer(Dot11Beacon).info == '':
             addr2 = p.getlayer(Dot11).addr2
             if addr2 not in hiddenNets:
-                print '[-] Detected Hidden SSID: ' + ' with MAC:' + addr2
+                print '[-] Detected Hidden SSID with MAC:' + addr2
             hiddenNets.append(addr2)
 
 def main():
