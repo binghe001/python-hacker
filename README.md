@@ -111,6 +111,7 @@ QQ：2711098650
 8. wireless_hidden.py: 找出隐藏的802.11网络的网络名
 9. wireless_dup.py: 复制RadioTap、802.11、SNAP、LLC、IP和UDP层中的信息
 10. wireless_airplain.py: 截获无人机
+11. wireless_cookie_wordpress_print.py: 解析Wordpress HTTP会话
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
