@@ -112,6 +112,7 @@ QQ：2711098650
 9. wireless_dup.py: 复制RadioTap、802.11、SNAP、LLC、IP和UDP层中的信息
 10. wireless_airplain.py: 截获无人机
 11. wireless_cookie_wordpress_print.py: 解析Wordpress HTTP会话
+12. wireless_cookie_wordpress_find_attack.py: 检测企图盗用Wordpress会话的人，并将结果显示在屏幕上
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
