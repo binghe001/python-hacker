@@ -114,6 +114,10 @@ QQ：2711098650
 11. wireless_cookie_wordpress_print.py: 解析Wordpress HTTP会话
 12. wireless_cookie_wordpress_find_attack.py: 检测企图盗用Wordpress会话的人，并将结果显示在屏幕上
 ```
+### com.binghe.hacker.tools.script.network.bluetooth 包下的脚本
+```
+1.bluetooth_discorver.py: 发现周围的蓝牙设备，并把蓝牙设备的名字和Mac地址输出到屏幕
+```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
 1. scan_host_ports.py: 端口扫描器  
