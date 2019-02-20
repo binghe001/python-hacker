@@ -116,7 +116,8 @@ QQ：2711098650
 ```
 ### com.binghe.hacker.tools.script.network.bluetooth 包下的脚本
 ```
-1.bluetooth_discorver.py: 发现周围的蓝牙设备，并把蓝牙设备的名字和Mac地址输出到屏幕
+1. bluetooth_discorver.py: 发现周围的蓝牙设备，并把蓝牙设备的名字和Mac地址输出到屏幕
+2. bluetooth_discover_circle.py: 持续监听新的蓝牙设备
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
