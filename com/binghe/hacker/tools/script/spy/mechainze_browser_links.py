@@ -32,7 +32,7 @@ def printLinksByRe(html):
 #利用BeautifulSoup
 def printLinksByBeautifulSoup(html):
     try:
-        print '\n[+] Printing Links From BeautifulDoup.'
+        print '\n[+] Printing Links From BeautifulSoup.'
         soup = BeautifulSoup(html)
         links = soup.findAll(name='a')
         for link in links:
