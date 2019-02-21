@@ -123,6 +123,10 @@ QQ：2711098650
 5. bluetooth_obexftp.py 用Python ObexFTP控制打印机
 6. bluetooth_phone.py: 窃取手机电话簿信息
 ```
+### com.binghe.hacker.tools.script.network.spy 包下的脚本
+```
+1. mechanize_website_source.py: 用mechanize解析网站源代码
+```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
 1. scan_host_ports.py: 端口扫描器  
