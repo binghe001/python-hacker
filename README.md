@@ -139,6 +139,7 @@ QQ：2711098650
 4. mechainze_website_cookie.py: 打印网站的cookie
 5. mechainze_browser.py: 自定义浏览器(匿名)
 6. mechainze_browser_test.py: 测试自定义浏览器，可打印多个不同的cookie
+7. mechainze_browser_links.py: 分析并打印网页上的链接
 ```
 
 # 出现率高的密码
