@@ -4,6 +4,7 @@
 # Date: 2019/2/21
 # Created by 冰河
 # Description 从推文中获取地理位置信息
+#             python mechainze_twitter_locate.py -u <twitter handle> [-c <list of cities>]
 # 博客 https://blog.csdn.net/l1028386804
 
 import json
