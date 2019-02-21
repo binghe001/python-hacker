@@ -127,6 +127,9 @@ QQ：2711098650
 ```
 1. mechanize_website_source.py: 用mechanize解析网站源代码
 2. mechainze_proxy.py: mechainze代理
+3. mechainze_user_agent.py: 修改访问网站的user-agent
+4. mechainze_website_cookie.py: 打印网站的cookie
+5. mechainze_browser.py: 自定义浏览器类
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
