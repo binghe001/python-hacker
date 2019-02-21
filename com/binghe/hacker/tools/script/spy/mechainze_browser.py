@@ -34,7 +34,7 @@ class AnonBrowser(mechanize.Browser):
             index = random.randrange(0, len(self.proxies))
             self.set_proxies({'http': self.proxies[index]})
 
-    def anontmize(self, sleep = False):
+    def anonymize(self, sleep=False):
         self.clear_cookies()
         self.change_user_agent()
         self.change_proxy()

@@ -137,6 +137,7 @@ QQ：2711098650
 2. scan_nmap.py: 使用nmap进行扫描
 3. mechainze_user_agent.py: 修改访问网站的user-agent
 4. mechainze_website_cookie.py: 打印网站的cookie
+5. mechainze_browser_test.py: 测试自定义浏览器，可打印多个不同的cookie
 ```
 
 # 出现率高的密码
