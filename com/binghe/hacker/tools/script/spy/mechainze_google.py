@@ -3,7 +3,7 @@
 # -*- coding: gbk -*-
 # Date: 2019/2/21
 # Created by 冰河
-# Description 与Google API交互
+# Description 与Google API交互，
 # 博客 https://blog.csdn.net/l1028386804
 
 import urllib
@@ -20,7 +20,7 @@ def google(search_item):
     print objects
 
 def main():
-    parser = optparse.OptionParser('usage%prog -c <search content>')
+    parser = optparse.OptionParser('usage%prog -k <search keyword>')
     parser.add_option('-c', dest='content', type='string', help='specify search content')
     (options, args) = parser.parse_args()
     content = options.content
