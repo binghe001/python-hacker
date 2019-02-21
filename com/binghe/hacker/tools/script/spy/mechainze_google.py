@@ -9,13 +9,15 @@
 import urllib
 from mechainze_browser import *
 import optparse
+import json
 
 #使用Google搜索
 def google(search_item):
     ab = AnonBrowser()
     search_item = urllib.quote_plus(search_item)
     response = ab.open('http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=' + search_item)
-    print response.read()
+    objects = json.load(response)
+    print objects
 
 def main():
     parser = optparse.OptionParser('usage%prog -c <search content>')
