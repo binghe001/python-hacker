@@ -121,6 +121,7 @@ QQ：2711098650
 3. bluetooth_rfcomm_channel.py: 检测RFCOMM通道是否开放并处于监听状态
 4. bluetooth_rfcomm_protocol.py: 使用蓝牙服务发现协议打印蓝牙设备的服务名称、协议和端口号
 5. bluetooth_obexftp.py 用Python ObexFTP控制打印机
+6. bluetooth_phone.py: 窃取手机电话簿信息
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
