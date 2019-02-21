@@ -113,13 +113,14 @@ QQ：2711098650
 10. wireless_airplain.py: 截获无人机
 11. wireless_cookie_wordpress_print.py: 解析Wordpress HTTP会话
 12. wireless_cookie_wordpress_find_attack.py: 检测企图盗用Wordpress会话的人，并将结果显示在屏幕上
-13. bluetooth_rfcomm_channel.py: 检测RFCOMM通道是否开放并处于监听状态
-14. bluetooth_rfcomm_protocol.py: 使用蓝牙服务发现协议打印蓝牙设备的服务名称、协议和端口号
 ```
 ### com.binghe.hacker.tools.script.network.bluetooth 包下的脚本
 ```
 1. bluetooth_discorver.py: 发现周围的蓝牙设备，并把蓝牙设备的名字和Mac地址输出到屏幕
 2. bluetooth_discover_circle.py: 持续监听新的蓝牙设备
+3. bluetooth_rfcomm_channel.py: 检测RFCOMM通道是否开放并处于监听状态
+4. bluetooth_rfcomm_protocol.py: 使用蓝牙服务发现协议打印蓝牙设备的服务名称、协议和端口号
+5. bluetooth_obexftp.py 用Python ObexFTP控制打印机
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
