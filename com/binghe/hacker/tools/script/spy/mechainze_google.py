@@ -34,7 +34,7 @@ def google(search_item):
         text = result['content']
         new_gr = Google_Result(title, text, url)
         results.append(new_gr)
-    print results
+    return results
 
 def main():
     parser = optparse.OptionParser('usage%prog -k <search keyword>')
