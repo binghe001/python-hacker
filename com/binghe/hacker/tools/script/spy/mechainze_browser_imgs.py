@@ -29,7 +29,7 @@ def mirrorImages(url, dir):
 
 def main():
     parser = optparse.OptionParser('usage%prog -u <target url> -d <destination directory>')
-    parser.add_option('-u', dest='tgtURL', type='string', hrlp='specify target url')
+    parser.add_option('-u', dest='tgtURL', type='string', help='specify target url')
     parser.add_option('-d', dest='dir', type='string', help='specify destina directory')
     (options, args) = parser.parse_args()
     url = options.tgtURL
