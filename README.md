@@ -135,6 +135,7 @@ QQ：2711098650
 8. mechainze_browser_imgs.py: 从网站上下载图片，并直接写入硬盘
 9. mechainze_google.py: 与Google API交互
 10. mechainze_twitter.py: 从Twitter上获取数据
+11. mechainze_twitter_locate.py: 从推文中获取地理位置信息
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
