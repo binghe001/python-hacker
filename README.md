@@ -133,6 +133,7 @@ QQ：2711098650
 1. scan_host_ports.py: 端口扫描器  
 2. scan_nmap.py: 使用nmap进行扫描
 3. mechainze_user_agent.py: 修改访问网站的user-agent
+4. mechainze_website_cookie.py: 打印网站的cookie
 ```
 
 # 出现率高的密码
