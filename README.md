@@ -141,6 +141,9 @@ QQ：2711098650
 ### com.binghe.hacker.tools.script.network.email 包下的脚本
 ```
 1. smtplib_send_email.py: 使用smtplib发送电子邮件
+2. smtp_twitter_send_mail.py: 利用目标对象留在Twitter中可以公开的访问的信息对他发送邮件进行钓鱼攻击
+3. mechainze_browser.py: 自定义浏览器类
+4. mechainze_twitter_hobby.py: 用正则表达式解析Twitter用户的兴趣爱好
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
