@@ -4,7 +4,8 @@
 # Date: 2019/2/22
 # Created by 冰河
 # Description 使用smtplib发送电子邮件
-#             用法： python smtplib_send_email.py  -u <from username> -p <from password> -t <to email address> -s <subject> -c <text> -a <smtp address> -P <smtp port>
+#             用法： python smtplib_send_email.py -u <from username> -p <from password> -t <to email address> -s <subject> -c <text> -a <smtp address> -P <smtp port>
+#             例如： python smtplib_send_email.py -u 用户名 -p 密码 -t 接收邮件的地址 -s 主题 -c 邮件内容 -a smtp.qq.com -P 25
 # 博客 https://blog.csdn.net/l1028386804
 
 import smtplib
@@ -30,8 +31,9 @@ def sendMail(user, pwd, to, subject, text, smtp_address, smtp_port):
         smtpServer.sendmail(user, to, msg.as_string())
         smtpServer.close()
         print '[+] Mail Sent Successfully.'
-    except:
+    except Exception, e:
         print '[+] Sending Mail Failed.'
+        print e
 
 def main():
     parser = optparse.OptionParser('usage%prog -u <from username> -p <from password> -t <to email address> -s <subject> -c <text> -a <smtp address> -P <smtp port>')
@@ -55,3 +57,6 @@ def main():
         print parser.usage
         exit(0)
     sendMail(user, pwd, to, subject, text, smtp_address, smtp_port)
+
+if __name__ == '__main__':
+    main()
