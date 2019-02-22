@@ -147,7 +147,8 @@ QQ：2711098650
 ```
 ### com.binghe.hacker.tools.script.network.ak 免杀包下的脚本
 ```
-1. bindshell.py 生成绑定1337端口的Shell
+1. bindshell.py: 生成绑定1337端口的Shell
+2. check_virus.py: 将生成的bindshell.exe提交到vscan.novirusthanks.org检测
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
