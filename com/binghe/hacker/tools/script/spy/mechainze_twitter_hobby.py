@@ -4,6 +4,7 @@
 # Date: 2019/2/21
 # Created by 冰河
 # Description 用正则表达式解析Twitter用户的兴趣爱好
+#             用法： python mechainze_twitter_hobby.py -u <twitter handle>
 # 博客 https://blog.csdn.net/l1028386804
 
 from mechainze_browser import *
