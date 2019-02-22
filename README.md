@@ -138,6 +138,10 @@ QQ：2711098650
 11. mechainze_twitter_locate.py: 从推文中获取地理位置信息
 12. mechainze_twitter_hobby.py: 用正则表达式解析Twitter用户的兴趣爱好
 ```
+### com.binghe.hacker.tools.script.network.email 包下的脚本
+```
+1. smtplib_send_email.py: 使用smtplib发送电子邮件
+```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
 1. scan_host_ports.py: 端口扫描器  
