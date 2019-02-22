@@ -5,7 +5,7 @@
 QQ：2711098650
 
 # 工具简述
-本项目均为冰河亲自编写并整理的Python渗透脚本集合，可直接拿来用于实战渗透
+本项目均为冰河亲自编写并整理的Python渗透脚本集合，可直接拿来用于渗透实战
 
 # 脚本说明
 ### com.binghe.hacker.tools.script.attack.crypt 包下的脚本：
@@ -144,6 +144,10 @@ QQ：2711098650
 2. smtp_twitter_send_mail.py: 利用目标对象留在Twitter中可以公开的访问的信息对他发送邮件进行钓鱼攻击
 3. mechainze_browser.py: 自定义浏览器类
 4. mechainze_twitter_hobby.py: 用正则表达式解析Twitter用户的兴趣爱好
+```
+### com.binghe.hacker.tools.script.network.ak 免杀包下的脚本
+```
+1. bindshell.py 生成绑定1337端口的Shell
 ```
 ### com.binghe.hacker.tools.script.scanner 包下的脚本
 ```
